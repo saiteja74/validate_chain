@@ -32,24 +32,22 @@ This repository contains a Python-based application that leverages Groq's Mistra
 2.  Install Python dependencies:
 
     ```bash
-    pip install Flask groq requests
+    pip install -r requirements.txt
     ```
 
-3.  (Optional) Install the Solidity compiler (`solc`) if you want to use the full validation functionality.
+3.  Install the Solidity compiler (`solc`) if you want to use the full validation functionality.
 
-4.  Set your Groq API key:
 
-    * Replace `"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"` with your actual Groq API key in the Python code.
 
 ## Running the Application
 
 1.  Run the Python script:
 
     ```bash
-    python your_script_name.py
+    python app.py
     ```
 
-2.  The API server will start at `http://0.0.0.0:5000`.
+2.  The API server will start at `http://127.0.0.1:5000/`.
 
 ## API Endpoints
 
@@ -76,7 +74,7 @@ This repository contains a Python-based application that leverages Groq's Mistra
 1.  **Generate a contract:**
 
     ```bash
-    curl -X POST -H "Content-Type: application/json" -d '{"prompt": "Generate an ERC-20 token contract"}' [http://0.0.0.0:5000/generate-contract](http://0.0.0.0:5000/generate-contract)
+    127.0.0.1:5000/generate-contract?prompt=Create a simple voting contract
     ```
 
 2.  **Validate a contract:**
