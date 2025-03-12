@@ -1,0 +1,6 @@
+127.0.0.1:5000/generate-contract?prompt=Create a simple voting contract
+
+127.0.0.1:5000/validate-contract?solidity_code=pragma%20solidity%20%5E0.8.0%3B%20contract%20Test%20%7B%20%7D
+
+
+127.0.0.1:5000/get-template?id=0
