@@ -25,7 +25,7 @@ Develop an AI model that generates Solidity contracts from text descriptions.
 1.  Clone the repository:
 
     ```bash
-    git clone [https://github.com/saiteja74/validate_chain.git](https://github.com/saiteja74/validate_chain.git)
+    git clone https://github.com/saiteja74/validate_chain.git
     cd validate_chain
     ```
 
