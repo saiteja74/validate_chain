@@ -25,8 +25,8 @@ This repository contains a Python-based application that leverages Groq's Mistra
 1.  Clone the repository:
 
     ```bash
-    git clone [https://github.com/yourusername/your-repo-name.git](https://github.com/yourusername/your-repo-name.git)
-    cd your-repo-name
+    git clone [https://github.com/saiteja74/validate_chain.git](https://github.com/saiteja74/validate_chain.git)
+    cd validate_chain
     ```
 
 2.  Install Python dependencies:
