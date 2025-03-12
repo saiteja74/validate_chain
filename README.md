@@ -1,6 +1,6 @@
 # Solidity Contract Generator and Validator API
 
-This repository contains a Python-based application that leverages Groq's Mistral model to generate Solidity smart contracts from text prompts. It also includes functionalities to validate the generated contracts and manage a dataset of contract templates. The application is implemented using Flask, making it accessible through a RESTful API.
+Develop an AI model that generates Solidity contracts from text descriptions. 
 
 ## Features
 
@@ -80,37 +80,22 @@ This repository contains a Python-based application that leverages Groq's Mistra
 2.  **Validate a contract:**
 
     ```bash
-    curl -X POST -H "Content-Type: application/json" -d '{"solidity_code": "pragma solidity ^0.8.0; contract MyContract {}"}' [http://0.0.0.0:5000/validate-contract](http://0.0.0.0:5000/validate-contract)
+    127.0.0.1:5000/validate-contract?solidity_code=pragma%20solidity%20%5E0.80%3B%20contract%20Test%20%7B%20%7D
     ```
 
 3.  **List templates:**
 
     ```bash
-    curl [http://0.0.0.0:5000/list-templates](http://0.0.0.0:5000/list-templates)
+    127.0.0.1:5000/list-templates
     ```
 
 4.  **Get a template:**
 
     ```bash
-    curl [http://0.0.0.0:5000/get-template?id=0](http://0.0.0.0:5000/get-template?id=0)
+    127.0.0.1:5000/get-template?id=0
     ```
 
 ## Testing
 
 The application includes a `test_generated_contracts` function that tests the syntax correctness of all contracts in the dataset. The `main` function executes this test upon running the script.
 
-## Contributing
-
-Contributions are welcome! Please feel free to submit pull requests or open issues.
-
-## License
-
-This project is licensed under the [MIT License](LICENSE).
-
-## Author
-
-Your Name / Your GitHub Profile
-
-## Contact
-
-Your Email / Your preferred contact method.
