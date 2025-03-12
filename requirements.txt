@@ -1,0 +1,7 @@
+langchain-groq
+langchain
+pandas
+numpy
+py-solc-x
+groq
+Flask
